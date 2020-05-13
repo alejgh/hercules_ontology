@@ -490,8 +490,7 @@ asio:UniversityDivision a owl:Class ;
         "Division d'université"@fr,
         "División de universidade"@gl,
         "Divisão de universidade"@pt ;
-    rdfs:comment "A division within a university (school, faculty, etc.)"@en ;
-    rdfs:subClassOf asio:University .
+    rdfs:comment "A division within a university (school, faculty, etc.)"@en .
 
 asio:Workshop a owl:Class ;
     rdfs:label "Workshop"@en ;
@@ -1154,6 +1153,31 @@ asio:Spinoff a owl:Class ;
         "Société scindée"@fr,
         "Empresa derivada"@pt .
 
+asio:University a owl:Class ;
+    rdfs:label "Universitat"@ca-ad,
+        "Universitat"@ca-es,
+        "University"@en,
+        "Unibertsitate"@eu,
+        "Université"@fr,
+        "Universidade"@gl,
+        "Universidade"@pt ;
+    rdfs:comment "A centre at which higher education and research is conducted."@en ;
+    owl:equivalentClass dbo:University,
+        frapo:University,
+        sio:SIO_000290,
+        sio:University,
+        swpo:University,
+        vivo:University,
+        pext:University,
+        org:University ;
+    skos:prefLabel "Universitat"@ca-ad,
+        "Universitat"@ca-es,
+        "University"@en,
+        "Unibertsitate"@eu,
+        "Université"@fr,
+        "Universidade"@gl,
+        "Universidade"@pt .
+
 asio:hasCode a owl:ObjectProperty ;
     rdfs:label "has Code"@en ;
     rdfs:comment "A concept can be asigned a code."@en ;
@@ -1275,32 +1299,6 @@ asio:PhDThesis a owl:Class ;
         "Tese doctoral"@gl,
         "Tese de doutoramento"@pt .
 
-asio:University a owl:Class ;
-    rdfs:label "Universitat"@ca-ad,
-        "Universitat"@ca-es,
-        "University"@en,
-        "Unibertsitate"@eu,
-        "Université"@fr,
-        "Universidade"@gl,
-        "Universidade"@pt ;
-    rdfs:comment "A centre at which higher education and research is conducted."@en ;
-    rdfs:subClassOf foaf:Organization ;
-    owl:equivalentClass dbo:University,
-        frapo:University,
-        sio:SIO_000290,
-        sio:University,
-        swpo:University,
-        vivo:University,
-        pext:University,
-        org:University ;
-    skos:prefLabel "Universitat"@ca-ad,
-        "Universitat"@ca-es,
-        "University"@en,
-        "Unibertsitate"@eu,
-        "Université"@fr,
-        "Universidade"@gl,
-        "Universidade"@pt .
-
 modules:GeopoliticalEntities a owl:Class ;
     rdfs:label "Entitats geopolítiques"@ca-ad,
         "Entitats geopolítiques"@ca-es,
@@ -1402,6 +1400,21 @@ asio:ResearchContribution a owl:Class ;
 
 skos:ConceptScheme a owl:Class .
 
+foaf:Organization a owl:Class ;
+    rdfs:subClassOf foaf:Agent ;
+    owl:equivalentClass npg:Organization,
+        frapo:Organization,
+        aiiso:Organization,
+        cv:Organization,
+        sio:SIO_000012,
+        swpo:Organization,
+        doap:Organization,
+        vivo:Organization,
+        bbccore:Organisation,
+        ebucore:Organisation,
+        dul:Organization,
+        org:Organization .
+
 asio:AcademicDegree a owl:Class ;
     rdfs:label "Grau acadèmic"@ca-ad,
         "Grau acadèmic"@ca-es,
@@ -1446,21 +1459,6 @@ asio:ScientificPublication a owl:Class ;
         "Publicación científica"@es,
         "Publication scientifique"@fr,
         "Publicação científica"@pt .
-
-foaf:Organization a owl:Class ;
-    rdfs:subClassOf foaf:Agent ;
-    owl:equivalentClass npg:Organization,
-        frapo:Organization,
-        aiiso:Organization,
-        cv:Organization,
-        sio:SIO_000012,
-        swpo:Organization,
-        doap:Organization,
-        vivo:Organization,
-        bbccore:Organisation,
-        ebucore:Organisation,
-        dul:Organization,
-        org:Organization .
 
 asio:AcademicPublication a owl:Class ;
     rdfs:label "Publicació acadèmica"@ca-ad,
