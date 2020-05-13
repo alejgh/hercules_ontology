@@ -1532,7 +1532,6 @@ asio:Thesis rdf:type owl:Class ;
 
 ###  http://purl.org/hercules/asio/core#University
 asio:University rdf:type owl:Class ;
-                rdfs:subClassOf foaf:Organization ;
                 rdfs:comment "A centre at which higher education and research is conducted."@en ;
                 rdfs:label "Unibertsitate"@eu ,
                            "Universidade"@gl ,
