@@ -1777,7 +1777,7 @@ asio:signed rdf:type owl:NamedIndividual ,
 ###  http://purl.org/hercules/asio/core#terminated
 asio:terminated rdf:type owl:NamedIndividual ,
                          asio:Status ;
-                rdfs:label "Terminated"@en .
+                rdfs:label "Terminateeed"@en .
 
 
 ###  http://purl.org/hercules/asio/core#unfunded
