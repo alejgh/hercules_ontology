@@ -908,7 +908,7 @@ asio:spinsOffFrom a owl:ObjectProperty ;
 
 asio:terminated a asio:Status,
         owl:NamedIndividual ;
-    rdfs:label "Terminated"@en .
+    rdfs:label "Terminateeed"@en .
 
 asio:unfunded a asio:Status,
         owl:NamedIndividual ;
