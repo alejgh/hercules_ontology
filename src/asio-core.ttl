@@ -211,7 +211,7 @@ asio:employs rdf:type owl:ObjectProperty ;
 asio:funds rdf:type owl:ObjectProperty ;
            owl:inverseOf asio:isFundedBy ;
            rdfs:domain foaf:Agent ;
-           rdfs:label "funds"@en .
+           rdfs:label "fundds"@en .
 
 
 ###  http://purl.org/hercules/asio/core#geoDivision
