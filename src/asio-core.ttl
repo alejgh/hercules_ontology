@@ -458,7 +458,7 @@ asio:publicationCitation rdf:type owl:ObjectProperty ;
 asio:publishedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain asio:Publication ;
                  rdfs:range foaf:Agent ;
-                 rdfs:label "published by"@en , "publicado por"@es .
+                 rdfs:label "published by"@en .
 
 
 ###  http://purl.org/hercules/asio/core#requiredFor
