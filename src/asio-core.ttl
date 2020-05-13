@@ -458,7 +458,7 @@ asio:publicationCitation rdf:type owl:ObjectProperty ;
 asio:publishedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain asio:Publication ;
                  rdfs:range foaf:Agent ;
-                 rdfs:label "published by"@en .
+                 rdfs:label "published by"@en , "publicado por"@es .
 
 
 ###  http://purl.org/hercules/asio/core#requiredFor
@@ -632,7 +632,7 @@ asio:projectKeyword rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/hercules/asio/core#projectObjective
 asio:projectObjective rdf:type owl:DatatypeProperty ;
-                      rdfs:domain foaf:Project ;
+                      rdfs:domain asio:NationalProject ;
                       rdfs:range xsd:string ;
                       rdfs:comment "A defined objective of the project."@en ;
                       rdfs:label "objetivo de proyecto"@es ,
@@ -1532,6 +1532,7 @@ asio:Thesis rdf:type owl:Class ;
 
 ###  http://purl.org/hercules/asio/core#University
 asio:University rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Organization ;
                 rdfs:comment "A centre at which higher education and research is conducted."@en ;
                 rdfs:label "Unibertsitate"@eu ,
                            "Universidade"@gl ,
@@ -1551,6 +1552,7 @@ asio:University rdf:type owl:Class ;
 
 ###  http://purl.org/hercules/asio/core#UniversityDivision
 asio:UniversityDivision rdf:type owl:Class ;
+                        rdfs:subClassOf asio:University ;
                         rdfs:comment "A division within a university (school, faculty, etc.)"@en ;
                         rdfs:label "Division d'université"@fr ,
                                    "Divisió d'universitat"@ca-ad ,
