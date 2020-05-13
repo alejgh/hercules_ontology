@@ -619,7 +619,7 @@ asio:funded a asio:Status,
     rdfs:label "Funded"@en .
 
 asio:funds a owl:ObjectProperty ;
-    rdfs:label "funds"@en ;
+    rdfs:label "fundds"@en ;
     rdfs:domain foaf:Agent ;
     owl:equivalentProperty frapo:funds ;
     owl:inverseOf asio:isFundedBy .
