@@ -458,7 +458,7 @@ asio:publicationCitation rdf:type owl:ObjectProperty ;
 asio:publishedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain asio:Publication ;
                  rdfs:range foaf:Agent ;
-                 rdfs:label "published by"@en .
+                 rdfs:label "published by"@en , "publicado por"@es .
 
 
 ###  http://purl.org/hercules/asio/core#requiredFor
@@ -632,7 +632,7 @@ asio:projectKeyword rdf:type owl:DatatypeProperty ;
 
 ###  http://purl.org/hercules/asio/core#projectObjective
 asio:projectObjective rdf:type owl:DatatypeProperty ;
-                      rdfs:domain asio:NationalProject ;
+                      rdfs:domain foaf:Project ;
                       rdfs:range xsd:string ;
                       rdfs:comment "A defined objective of the project."@en ;
                       rdfs:label "objetivo de proyecto"@es ,
