@@ -99,7 +99,7 @@ asio:associatedWith rdf:type owl:ObjectProperty ,
                     rdfs:domain foaf:Agent ;
                     rdfs:range foaf:Agent ;
                     rdfs:comment "an organisation (i.e. university) is associated with another organsiation (i.e. research institute)."@en ;
-                    rdfs:label "associated with"@en .
+                    rdfs:label "assofciated with"@en .
 
 
 ###  http://purl.org/hercules/asio/core#atContext
