@@ -516,7 +516,7 @@ asio:advises a owl:ObjectProperty ;
 
 asio:associatedWith a owl:ObjectProperty,
         owl:SymmetricProperty ;
-    rdfs:label "associated with"@en ;
+    rdfs:label "assofciated with"@en ;
     rdfs:comment "an organisation (i.e. university) is associated with another organsiation (i.e. research institute)."@en ;
     rdfs:domain foaf:Agent ;
     rdfs:range foaf:Agent .
@@ -567,7 +567,7 @@ asio:closed a asio:Status,
 
 asio:coadvisedBy a owl:ObjectProperty ;
     rdfs:label "co-advised by"@en ;
-    rdfs:comment "An academic publication (bachelor thesis, master thesis or doctoral thesis) is co-advised by an advisor."@en ;
+    rdfs:comment "An aaacademic publication (bachelor thesis, master thesis or doctoral thesis) is co-advised by an advisor."@en ;
     rdfs:domain asio:AcademicPublication ;
     rdfs:range foaf:Person .
 
