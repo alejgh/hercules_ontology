@@ -147,7 +147,7 @@ asio:capital rdf:type owl:ObjectProperty ;
 asio:coadvisedBy rdf:type owl:ObjectProperty ;
                  rdfs:domain asio:AcademicPublication ;
                  rdfs:range foaf:Person ;
-                 rdfs:comment "An academic publication (bachelor thesis, master thesis or doctoral thesis) is co-advised by an advisor."@en ;
+                 rdfs:comment "An aaacademic publication (bachelor thesis, master thesis or doctoral thesis) is co-advised by an advisor."@en ;
                  rdfs:label "co-advised by"@en .
 
 
